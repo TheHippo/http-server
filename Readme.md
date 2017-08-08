@@ -19,3 +19,7 @@ Help Options:
 Arguments:
   directory:       directory to serve
 ```
+
+## Installation
+
+`go get -u github.com/TheHippo/http-server`
