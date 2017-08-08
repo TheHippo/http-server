@@ -14,8 +14,7 @@ type cliOptions struct {
 	Port    uint   `short:"p" long:"port" description:"port to bind to" default:"8080"`
 	Address string `short:"b" long:"address" description:"address to bind to" default:"localhost"`
 	Verbose bool   `short:"v" long:"verbose" description:"log every request"`
-	// Directory string `short:"d" long:"directory" description:"folder to serve" default:"."`
-	Args struct {
+	Args    struct {
 		Directory string `positional-arg-name:"directory" description:"directory to serve"`
 	} `positional-args:"yes"`
 }
